@@ -572,7 +572,7 @@ class ChronoStudioPro(ctk.CTk):
                 elif sound_type == "Chime":
                     winsound.MessageBeep(winsound.MB_ICONASTERISK)
                 else:
-                    winsound.Beep(880, 220)
+                    winsound.Beep(880, 3000)
             except RuntimeError:
                 self.bell()
         else:
